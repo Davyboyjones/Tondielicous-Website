@@ -4,6 +4,21 @@ body {
   text-align: center;
   min-height: 2000px;
 }
+.logo {
+  top: 900px;
+  width: 150px; /* Adjust this value to your desired width */
+  height: auto; /* Maintains the aspect ratio */
+  padding-top: 50px; /* Adjust this value to move the logo lower */
+  padding-bottom: 20px;
+}
+.page-menu-bar {
+  position: fixed;
+  top: 0; 
+  height: 180;
+  width: 100%;
+  background-color: white; /* Optional: to ensure the menu background */
+  /* z-index: 1000; Optional: to make sure it stays on top of other elements */
+}
 a {
   color: pink;
 }

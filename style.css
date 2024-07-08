@@ -8,8 +8,8 @@ body {
   top: 900px;
   width: 150px; /* Adjust this value to your desired width */
   height: auto; /* Maintains the aspect ratio */
-  padding-top: 50px; /* Adjust this value to move the logo lower */
-  padding-bottom: 20px;
+  padding-top: 30px; /* Adjust this value to move the logo lower */
+  padding-bottom: 10px;
 }
 .page-menu-bar {
   position: fixed;
@@ -516,4 +516,12 @@ h4 {
   font-size: 18px;
   line-height: 1.7;
   padding: 20px;
+}
+.banner-container {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
